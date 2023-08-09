@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% block conteudo %}
+<h1> LISTA DE PESSOAS </h1>
+{% for pessoa in pessoas %}
+
+<p> {{pessoa.nome}}, {{pessoa.telefone}}, {{pessoa.idade}} </p>
+{% endfor %}
+{% endblock %}
+
+
+
+
+
+
+        
